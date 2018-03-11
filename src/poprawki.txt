@@ -1,0 +1,1 @@
+po otrzymanym wyniku backspace nie zmienia wartosci liczby
