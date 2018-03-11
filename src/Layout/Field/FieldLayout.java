@@ -17,9 +17,7 @@ public class FieldLayout extends FlowPane {
         textField = new ValueTextField(size);
         getChildren().add(textField);
         setAlignment(Pos.CENTER);
-        setOnContextMenuRequested(event -> {
-            context.show(this, event.getScreenX(), event.getScreenY());
-        });
+        setOnContextMenuRequested(event -> context.show(this, event.getScreenX(), event.getScreenY()));
         setOnMouseClicked((event) -> context.hide());
     }
     public static void setText(String text){
