@@ -30,7 +30,7 @@ public  class Value {
         try{
             String prev = FieldLayout.getText();
 
-            if(Col1.sign.equals("")|| Conditions.plusMinusClicked){
+            if(Col1.sign.equals("") || Conditions.equalsClicked){
                 value = Double.valueOf(prev.replace(',', '.'));
                 System.out.println("+- cilcked");
             }

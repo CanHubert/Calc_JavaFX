@@ -48,7 +48,7 @@ public class Left_numbers extends FlowPane {
                     Col1.doCalculations();
                     Conditions.equalsClicked = true;
                     Conditions.signClicked = false;
-                    unCheck();
+                    unCheckNumbers();
                 }
                 if(button.getText().equals(",")){
                     if(Conditions.equalsClicked) Col2.resetAll();
@@ -71,7 +71,7 @@ public class Left_numbers extends FlowPane {
             getChildren().add(btn);
         }
     }
-    public static void unCheck(){
+    public static void unCheckNumbers(){
         Conditions.numberClicked = false;
         Conditions.decimalClicked = false;
     }

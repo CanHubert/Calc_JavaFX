@@ -59,7 +59,7 @@ public class Col1 extends VBox {
     }
     public static void reset(){
         sign = "";
-        Left_numbers.unCheck();
+        Left_numbers.unCheckNumbers();
     }
 
     public static void MathMethod1(){
@@ -73,7 +73,7 @@ public class Col1 extends VBox {
 
 
     public static void MathMethod2(){
-        Left_numbers.unCheck();
+        Left_numbers.unCheckNumbers();
         Value.printValues();
     }
 }

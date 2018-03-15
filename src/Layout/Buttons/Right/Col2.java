@@ -34,7 +34,7 @@ public class Col2 extends VBox {
             btn.setOnAction(ea->{
                 Button butn = (Button)ea.getSource();
                 String sign = butn.getText();
-                Conditions.LastClicked(butn);
+
                 switch (sign){
                     case "C":{
                         resetAll();
@@ -46,7 +46,6 @@ public class Col2 extends VBox {
                         if(tmp.charAt(0)== '-'){ FieldLayout.setText(tmp.substring(1, tmp.length())); }
                         else{ FieldLayout.setText("-"+tmp); }
                         Value.setLastValue();
-                        System.out.println(btn.getText());
                     }break;
                     case "⇐" :{
                         try{
@@ -72,6 +71,7 @@ public class Col2 extends VBox {
                         }
                     }break;
                 }
+                Conditions.LastClicked(butn);
 
             });
             getChildren().add(btn);
