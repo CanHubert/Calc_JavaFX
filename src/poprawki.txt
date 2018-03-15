@@ -2,4 +2,4 @@ po otrzymanym wyniku backspace nie zmienia wartosci liczby
 
 edytowane na github.com przez Hubert Can. 
 
-asvdasbf
+
